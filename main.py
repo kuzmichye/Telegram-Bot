@@ -50,7 +50,7 @@ def lalala(message):
 				good = types.InlineKeyboardButton('It is great!', callback_data='good')
 				bad = types.InlineKeyboardButton('Awful(', callback_data='bad')
 				markup.add(good, bad)
-				bot.send_message(message.chat.id, 'Everyting is nice! What about you?', reply_markup=markup)
+				bot.send_message(message.chat.id, 'Everything is nice! What about you?', reply_markup=markup)
 			case 'Weather':
 				def answer(city):
 					try:
